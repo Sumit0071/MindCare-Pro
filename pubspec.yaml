@@ -1,0 +1,55 @@
+name: code_redex_sih_2023
+description: Mental Health Analysis app for sih 2023 Team Code Redex
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^6.1.1
+  video_player: ^2.2.18
+  http: ^1.0.0
+  flutter_tts: ^3.6.3
+  animate_do: ^3.0.2
+  cloud_firestore: ^4.13.6
+  state_persistence: ^0.1.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  url_launcher: ^6.0.6
+  fl_chart: ^0.40.0
+  webview_flutter: ^2.0.13
+  google_maps_flutter: ^2.5.1
+  location: ^5.0.3
+  geolocator: ^10.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.1
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo.png"
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/icons/
+    - assets/vfx/startpg.mp4
+    - assets/fonts/
+
+  fonts:
+    - family: Cera Pro
+      fonts:
+        - asset: assets/fonts/Cera-Pro-Bold.otf
+        - asset: assets/fonts/Cera-Pro-Medium.otf
