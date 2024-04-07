@@ -11,7 +11,7 @@ import 'summary.dart';
 // import 'graph_generator.dart'; // Import the graph generator file
 
 class OpenAIService {
-  static const API_KEY = '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';
+  static const API_KEY = 'YOUR_API_KEY';
 
   Future<String> getResponse(String userMessage) async {
     var headers = {

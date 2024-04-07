@@ -9,7 +9,7 @@
 .history
 .svn/
 migrate_working_dir/
-
+*.py
 # IntelliJ related
 *.iml
 *.ipr
@@ -42,3 +42,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore firebase_credentials.json
+lib/pages/firecredentials.json
+lib/services/firestoredb-credentials.json
+lib/firebase_options.dart
+lib/services/openai_service.dart
+lib/firebase_optionsgit
