@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398232427571",
+    "project_id": "firestoredb-dcb48",
+    "storage_bucket": "firestoredb-dcb48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398232427571:android:806cc30d0d57dadced1746",
+        "android_client_info": {
+          "package_name": "com.teamcoderedex.code_redex_sih_2023"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU1RY_HCuJLp1s6yVnV-fyD7fV_v5kHos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
