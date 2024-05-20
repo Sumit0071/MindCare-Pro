@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-const API_KEY = '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';
+const API_KEY = 'YOUR_API_KEY';
 
 class OpenAIService {
   Future<String> getResponse(String userMessage) async {
