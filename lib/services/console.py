@@ -1,7 +1,7 @@
 import json
 import requests
 
-API_KEY = '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'
+API_KEY = 'YOUR_API_KEY'
 
 class ModelService:
     def get_response(self, user_message):
