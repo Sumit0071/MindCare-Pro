@@ -16,3 +16,14 @@ Self-identifying the mental health status and get guidance for support.
 6)Progress Tracking: Users will have the option to track their mental health progress over time by regularly retaking the survey. The app can provide comparisons and insights into changes in their mental health condition.
 
 <h2>If you're cloning the repo ensure to change all firebase credentials and the OPENAI API KEY to your own key</h2>
+<h3>For cloning this repository to your local machine follow these steps</h3>
+
+```
+git clone https://github.com/Sumit0071/MindCare-Pro.git
+```
+```
+flutter pub get  //it will get all the dependencies installed in the directory
+```
+```
+flutter run //it'll run the app on local machine (preferred choose you own android device instead of emulator)
+```
